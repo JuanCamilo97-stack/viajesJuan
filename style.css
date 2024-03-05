@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Lato:ital,wght@1,300&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Belanosima', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;;
+}
+
+body{
+    height: 100vh !important;
+}
+
+/* clases reutilizables */
+
+.btn-ppal{
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: azure;
+    background-color: rgb(6, 6, 88);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+
+/* Primera seccion */
+header{
+    background: linear-gradient(to right, #373b449c, #4286f47a), url(primer-fondop.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+
+}
+
+#barra-navegacion{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 100px;
+    padding: 30px 0px ;
+}
+
+.logo img {
+    width: 120px;
+    border-radius: 100px;
+    padding: 5px;;
+  }
+
+  nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+    font-weight: 700px;
+  }
+
+  nav a:hover{
+    color: darkblue;
+    text-shadow: 1px 1px 5px white;
+  }
+
+  #primera-seccion-contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: top 120px;
+  }
+
+  #primera-seccion-contenido p{
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 700;
+    text-shadow: 1px 1px 5px rgb(66, 65, 65);
+    margin-bottom: 10px;
+  }
+  #primera-seccion-contenido hr{
+    width: 100px;
+    border-color: rgb(26, 28, 97);
+  }
+
+  #primera-seccion-contenido h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  /* segunda seccion */
+  #segunda-seccion{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    font-style: italic;
+    background-color: rgba(24, 8, 255, 0.377);
+  }
+
+  /* tercera sesion */
+
+  #tercera{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 80px 0;
+    overflow: hidden;
+    background-color: rgba(7, 18, 179, 0.103);
+    
+  }
+  #titulo{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #titulo h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+  }
+  #titulo hr{
+    width: 100px;
+    border-color: rgb(26, 28, 97);
+
+  }
+
+  #container-tercera{
+    display: flex;
+    text-align: center;
+  }
+
+  .img-tercera{
+    padding: 0 15px;
+  }
+  .img-tercera img{
+    width: 100%;
+  }
+  .img-tercera h6{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .img-tercera p{
+    margin-bottom: 30px;
+  }
+
+  /* cuarta seccion */
+
+  #cuarta{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 100px 0 ;
+    background-color: rgba(209, 255, 3, 0.11);
+  }
+  
+  #cuarta-der{
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-content: center;
+    gap: 10px;
+  }
+
+  #cuarta-der img{
+    width: 99%;
+    height: 99%;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 10px;
+  }
+  
+  #cuarta-izq{
+    flex: 1;
+  }
+  #cuarta-izq h3{
+    text-transform: uppercase;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  #cuarta-izq hr{
+    width: 100%;
+    border-color: rgb(26, 28, 97);
+  }
+
+  #cuarta-izq p{
+    margin-bottom: 50px;
+  }
+
+  /* quinta */
+  #quinta img{
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 30px #000;
+  }
+  #quinta{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 32px;
+  }
+
+
+
+  /* footer */
+
+  footer{
+    background-color: rgb(0, 0, 61);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
